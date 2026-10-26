@@ -16,8 +16,9 @@ function getWeather(){
             console.log(data)
             console.log(data.location.city)
             document.querySelector('h2').textContent = `${data.location.name}, ${data.location.region}`
-            document.querySelector('h3').textContent = data.current.temp_f; 
-
+            document.querySelector('h3').textContent = ` Temp:  ${data.current.temp_f}  °F `; 
+            document.querySelector('.icon').src = 'https:' + data.current.condition.location
+            document.querySelector('.icon').computedStyleMap.display = 'block'
         })
 
 

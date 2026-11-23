@@ -2,6 +2,8 @@
 
 A small web app that shows the current temperature for any city. Type in a city and state, click the button, and get the temperature in Fahrenheit with a weather icon.
 
+**Live Site**: https://lou7776.github.io/weather-api-bootcamp/
+
 <img width="858" height="466" alt="Screenshot 2026-10-25 at 9 11 38 PM" src="https://github.com/user-attachments/assets/a0db63ff-83cf-436a-a43a-07aa21a83508" />
 
 
